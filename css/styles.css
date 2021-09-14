@@ -545,6 +545,9 @@ img {display: block;}
 .footer-right {
     margin-left: 70px;
 }
+.footer-left {
+    flex-shrink: 0;
+}
 
 .footer-social-networks {
     display: flex;
@@ -754,6 +757,9 @@ display: flex;
     border-radius: 4px;
     padding: 40px;
 }
+.checkbox {
+
+}
 .modal-form {
 
 }
@@ -783,11 +789,13 @@ display: flex;
 
 }
 .modal-form-input {
+    display: block;
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
+    padding-left: 42px;
 
     transition-property: border;
     transition-duration: 250ms;
@@ -833,7 +841,7 @@ display: flex;
     padding-left: 16px;
     padding-top: 12px;
     resize: none;
-    margin-bottom: 8px;
+    /* margin-bottom: 20px; */
 
     transition-property: border;
     transition-duration: 250ms;
@@ -861,6 +869,7 @@ display: flex;
 
     color: #757575;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 .check-icon {
     display: flex;
@@ -879,6 +888,7 @@ display: flex;
 }
 .agreement {
     margin-left: 5px;
+    color: #2196F3;
 }
 .modal-form-btn {
     display: flex;
@@ -937,14 +947,6 @@ input, textarea {
 fill: #000000;
     }
 
-.modal {
-    position: absolute;
-    width: 528px;
-    min-height: 581px;
-    background-color: #ffffff;
-    border-radius: 4px;
-    padding: 30px;
-}
 
 .btn-close {
     width: 30px;
